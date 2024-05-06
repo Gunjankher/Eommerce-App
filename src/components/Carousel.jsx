@@ -7,7 +7,7 @@ import { Swiper,SwiperSlide } from 'swiper/react'
 
 function Carousel() {
   return (
-    <div className='h-[600px]'>
+    <div className=''>
 <Swiper
 className='h-[60%]'
 navigation = {true}
