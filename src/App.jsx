@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import { Homepage } from './components'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-   <h1 className='text-green-500 bg-black'>hello world</h1>
+<Homepage />
     </>
   )
 }
