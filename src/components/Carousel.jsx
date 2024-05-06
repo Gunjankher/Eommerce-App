@@ -9,13 +9,12 @@ function Carousel() {
   return (
     <div className=''>
 <Swiper
-className='h-[60%]'
+className='h-[400px]'
 navigation = {true}
 spaceBetween={0}
 pagination = {{
 clickable : true
 }}
-loop = {true}
 
 autoplay = {{
   delay : 2500
