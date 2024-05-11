@@ -1,5 +1,6 @@
 import React from 'react'
 import {ShoppingCartIcon} from '@heroicons/react/24/outline'
+import Search from './Search'
 
 function Navbar() {
   return (
@@ -22,7 +23,10 @@ function Navbar() {
 </div>
 
 {/* middle */}
-<div className=''> Search</div>
+<div className=''>
+
+<Search />
+</div>
 
 {/* right */}
 <div className='flex items-center'>
