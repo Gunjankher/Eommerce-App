@@ -13,7 +13,7 @@ function Navbar() {
 </div>
 
 <div className=' pr-4 pl-4'>
-    <div className='text-sm xl:text-base font-semibold'>Deliver To</div>
+    <div className='text-xs xl:text-base'>Deliver To</div>
     <div className='text-sm xl:text-base font-bold'>Surendranagar</div>
 </div>
 
