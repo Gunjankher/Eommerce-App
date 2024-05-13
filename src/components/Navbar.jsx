@@ -23,7 +23,7 @@ function Navbar() {
 </div>
 
 {/* middle */}
-<div className=''>
+<div className='flex reletive items-center grow'>
 
 <Search />
 </div>
