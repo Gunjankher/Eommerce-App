@@ -22,7 +22,7 @@ className='flex grow items-center h-[100%] rounded-l text-black'
 />
 
 <button>
-    <MagnifyingGlassIcon className='h-[27px] m-auto stroke-slate-900 ' />
+    <MagnifyingGlassIcon className='h-[27px] m-auto stroke-slate-900 w-12' />
 
 </button>
 

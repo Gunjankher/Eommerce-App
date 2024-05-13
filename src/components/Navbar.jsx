@@ -4,7 +4,7 @@ import Search from './Search'
 
 function Navbar() {
   return (
-   <header className='max-w-[1600px]'>
+   <header className='max-w-[1700px]'>
 <div className='bg-amazonclone text-white flex h-[60px]' >
   {/* left   */}
 <div className='flex items-center'>
@@ -41,7 +41,7 @@ function Navbar() {
     <div className='text-sm xl:text-base font-bold'>&Orders</div>
 </div>
 
-<div  className='flex items-center'>
+<div  className='flex items-center pr-5'>
 <ShoppingCartIcon  className='h-[48px] flex'/>
 <div className='relative'> 
 <div className='absolute right-[9px] font-bold m-2 -mt-4 text-orange-400'>
