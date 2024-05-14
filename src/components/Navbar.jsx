@@ -1,6 +1,7 @@
 import React from 'react'
 import {ShoppingCartIcon} from '@heroicons/react/24/outline'
 import Search from './Search'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -42,7 +43,9 @@ function Navbar() {
 </div>
 
 <div  className='flex items-center pr-5'>
+    <Link to={'/checkout'}>
 <ShoppingCartIcon  className='h-[48px] flex'/>
+    </Link>
 <div className='relative'> 
 <div className='absolute right-[9px] font-bold m-2 -mt-4 text-orange-400'>
 0
